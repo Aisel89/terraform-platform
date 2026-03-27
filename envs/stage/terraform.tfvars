@@ -1,7 +1,7 @@
-aws_region        = "us-east-2"
-project_name      = "terraform-platform"
-environment       = "stage"
-owner             = "devops"
+aws_region   = "us-east-2"
+project_name = "terraform-platform"
+environment  = "stage"
+owner        = "devops"
 
 vpc_cidr             = "10.20.0.0/16"
 public_subnet_cidrs  = ["10.20.1.0/24", "10.20.2.0/24"]

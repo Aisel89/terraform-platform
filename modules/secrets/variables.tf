@@ -7,7 +7,7 @@ variable "description" {
 }
 
 variable "secret_string" {
-  type = string
+  type      = string
   sensitive = true
 }
 
