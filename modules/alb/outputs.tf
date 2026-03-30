@@ -1,7 +1,11 @@
-output "alb_dns_name" {
-  value = aws_lb.this.dns_name
+output "alb_dns" {
+  value = module.alb.alb_dns_name   ✅
 }
 
-output "target_group_arn" {
-  value = aws_lb_target_group.this.arn
+output "asg_name" {
+  value = module.app.asg_name
+}
+
+output "rds_endpoint" {
+  value = module.rds.db_instance_endpoint
 }
