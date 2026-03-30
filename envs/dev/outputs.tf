@@ -7,7 +7,7 @@ output "app_asg_name" {
 }
 
 output "rds_endpoint" {
-  value = module.rds.endpoint
+  value = module.rds.db_instance_endpoint
 }
 
 output "rds_secret_arn" {
