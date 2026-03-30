@@ -1,4 +1,4 @@
-bucket         = "aisalkyn-terraform-state-12345"
+bucket         = "aisel-terraform-state-12345"
 key            = "terraform-platform/dev/terraform.tfstate"
 region         = "us-east-1"
 encrypt        = true
