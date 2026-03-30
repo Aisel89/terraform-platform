@@ -1,11 +1,7 @@
-output "db_instance_endpoint" {
-  value = aws_db_instance.this.address
+output "rds_endpoint" {
+  value = module.rds.db_instance_endpoint
 }
 
-output "db_instance_port" {
-  value = aws_db_instance.this.port
-}
-
-output "master_user_secret_arn" {
-  value = aws_db_instance.this.master_user_secret[0].secret_arn
+output "rds_port" {
+  value = module.rds.db_instance_port
 }
